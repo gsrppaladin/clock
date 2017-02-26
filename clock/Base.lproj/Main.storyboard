@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:45:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9m-s7-fQj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:45:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9m-s7-fQj">
                                 <rect key="frame" x="56" y="313.5" width="264.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="4LE-EP-ohR"/>
@@ -38,6 +38,9 @@
                             <constraint firstItem="X9m-s7-fQj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ysJ-FW-77S"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clock" destination="X9m-s7-fQj" id="fx6-aA-NcA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
